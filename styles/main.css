@@ -38,9 +38,18 @@ h4 {
     font-weight: bold;
 }
 
+.top-story {
+    margin-bottom: 2rem;
+}
+
 .featured-story .card p,
 .top-story .card p {
     margin-bottom: 2rem;
+}
+
+.more-stories .media {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .featured-story .card {
@@ -61,4 +70,9 @@ h4 {
 
 .opinion .media {
     margin-bottom: 1.5rem;
+}
+
+.latest-news img {
+    width: 135px;
+    height: 90px;
 }
