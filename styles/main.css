@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1em;
+}
+
+header, footer {
+    padding: 3%;
+}
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.main {
+    margin: 0 2%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.featured-story .card p,
+.top-story .card p {
+    margin-bottom: 2rem;
+}
+
+.featured-story .card {
+    margin-bottom: 2rem;
+}
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 0.2rem 0;
+}
+
+.opinion img{
+    width: 68px;
+    height: 68px;
+}
+
+.opinion .media {
+    margin-bottom: 1.5rem;
+}
