@@ -102,13 +102,6 @@ h4 {
     text-align: center;
 }
 
-@media screen and (max-width: 767px) {
-    .mag-title {
-        border: none;
-        width: 100%;
-    }
-}
-
 .magazine .col-md-3:first-of-type {
     margin-top: 1em;
 }
@@ -139,4 +132,104 @@ section {
 .top-story, .opinion {
     margin-top: 0;
     /* margin-bottom: 0; */
+}
+
+.gray {
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.slideshow .section-title span,
+.magazine .mag-title span,
+.editors-picks .section-title span {
+    background-color: red;
+    color: white;
+    padding: 0.3em;
+}
+
+.news-category .category-title {
+    color: red;
+}
+
+.slideshow .card,
+.editors-picks .card,
+.magazine .card {
+    margin-bottom: 1rem;
+}
+
+.magazine img,
+.magazine .card-title {
+    margin: 1rem 0;
+}
+
+.editors-picks .gray,
+.slideshow .gray {
+    margin-bottom: 2rem;
+}
+
+.most-read img {
+    width: 60%;
+    /* height: 10vw; */
+    object-fit: cover;
+}
+
+.most-read .media {
+    border-top: 1px solid lightgrey;
+    padding-top: 1rem;
+}
+
+.footer-top {
+    font-size: 3rem;
+    color: red;
+}
+
+.footer-top span {
+    font-size: 1rem;
+    color: black;
+}
+
+.footer-top div:last-of-type {
+    text-align: right;
+}
+
+.footer-top i {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.footer-bottom {
+    font-size: 1rem;
+    padding-top: 2rem;
+    background-color: lightgrey;
+}
+
+.footer-bottom a {
+    padding-right: 2rem;
+    line-height: 2rem;
+}
+
+
+@media screen and (max-width: 767px) {
+    .mag-title {
+        border: none;
+        width: 100%;
+    }
+
+    .mob2 {
+        order: 2;
+    }
+
+    .mob1 {
+        order: 1;
+    }
+
+    .mob3 {
+        order: 3;
+    }
+
+    .footer-top div:last-of-type {
+        text-align: left;
+    }
+
 }
