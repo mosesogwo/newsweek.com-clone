@@ -49,7 +49,8 @@ h4 {
 
 .more-stories .media,
 .latest-news .media,
-.news-category .media:nth-of-type(2) {
+.news-category .media:nth-of-type(2),
+.bottom-ad .media {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -130,6 +131,12 @@ h4 {
     text-align: center;
 }
 
- {
+section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
 
+.top-story, .opinion {
+    margin-top: 0;
+    /* margin-bottom: 0; */
 }
