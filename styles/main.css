@@ -48,7 +48,8 @@ h4 {
 }
 
 .more-stories .media,
-.latest-news .media {
+.latest-news .media,
+.news-category .media:nth-of-type(2) {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -127,4 +128,8 @@ h4 {
 
 .section-title {
     text-align: center;
+}
+
+ {
+
 }
