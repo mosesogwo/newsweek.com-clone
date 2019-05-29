@@ -1,0 +1,336 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1em;
+    margin-top: 0;
+}
+
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.header-top {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    height: 100px;
+    padding: 0 2%; 
+}
+
+.header-top a {
+    color: white;
+    font-size: 5rem;
+}
+
+.header-top a:hover {
+    text-decoration: none;
+}
+
+
+.navbar {
+    background: white;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand,
+.navbar-toggler {
+    color: white;
+}
+
+.nav-item {
+    border-right: 1px solid lightgrey;
+    font-weight: 700;
+}
+
+.sign-in-btn,
+.sign-btn {
+    color: white;
+}
+
+.sub-btn,
+.subs-btn{
+    background: white;
+    color: red;
+}
+
+.main {
+    margin: 0 3%;
+    padding-top: 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.top-story {
+    margin-bottom: 2rem;
+}
+
+.featured-story .card p,
+.top-story .card p {
+    margin-bottom: 2rem;
+}
+
+.more-stories .media,
+.latest-news .media,
+.news-category .media:nth-of-type(2),
+.bottom-ad .media {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.more-stories {
+    position: sticky;
+    top: 0;
+}
+
+.more-stories a:hover {
+    color: black;
+    text-decoration: underline solid red;
+}
+
+.featured-story .card {
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+}
+
+.card-body {
+    padding: 0.2rem 0;
+}
+
+.opinion {
+    margin-bottom: 4rem;
+}
+
+.opinion img{
+    height: 68px;
+    width: 68px;
+}
+
+.opinion .media {
+    margin-bottom: 1.5rem;
+}
+
+.latest-news img {
+    height: 90px;
+    width: 135px;
+}
+
+.mag-title {
+    border-bottom: 1px solid lightgrey;
+    float: right;
+    margin-bottom: 0.5em;
+    text-align: center;
+    width: 75%;
+}
+
+.magazine .col-md-3:first-of-type {
+    margin-top: 1em;
+}
+
+.magazine .card-img-top {
+    height: 20vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+.magazine .col-md-3 span {
+    padding: 0.3em;
+}
+
+.magazine .col-md-3 span:first-of-type {
+    background-color: red;
+    color: white;
+}
+
+.section-title {
+    text-align: center;
+}
+
+section {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.top-story, .opinion {
+    margin-top: 0;
+}
+
+.gray {
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.slideshow .section-title span,
+.magazine .mag-title span,
+.editors-picks .section-title span {
+    background-color: red;
+    color: white;
+    padding: 0.3em;
+}
+
+.news-category .category-title {
+    color: red;
+}
+
+.slideshow .card,
+.editors-picks .card,
+.magazine .card {
+    margin-bottom: 1rem;
+}
+
+.magazine img,
+.magazine .card-title {
+    margin: 1rem 0;
+}
+
+.editors-picks .gray,
+.slideshow .gray {
+    margin-bottom: 2rem;
+}
+
+.most-read img {
+    object-fit: cover;
+    width: 60%;
+}
+
+.most-read .media {
+    border-top: 1px solid lightgrey;
+    padding-top: 1rem;
+}
+
+footer {
+    margin: 0 3%;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline solid black;
+}
+
+.footer-top {
+    color: red;
+    font-size: 3rem;
+    padding-top: 2rem;
+}
+
+.footer-top span {
+    color: black;
+    font-size: 1rem;
+    
+}
+
+.footer-top div:last-of-type,
+.footer-bottom div:last-of-type {
+    text-align: right;
+}
+
+.footer-top i {
+    color: black;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+}
+
+.footer-bottom {
+    border-top: 1px solid gray;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+}
+
+.footer-bottom a {
+    line-height: 2rem;
+    padding-right: 1rem;
+}
+
+.footer-bottom span {
+    font-weight: lighter;
+}
+
+.ad .hidden {
+    display: none;
+    visibility: hidden;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .mag-title {
+        border: none;
+        width: 100%;
+    }
+
+    .footer-top div:last-of-type,
+    .footer-bottom div:last-of-type {
+        text-align: left;
+    }  
+}
+
+@media screen and (max-width: 575px) {
+    .mob2 {
+        order: 2;
+    }
+
+    .mob1 {
+        order: 1;
+    }
+
+    .mob3 {
+        order: 3;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand,
+    .sign-in-btn,
+    .sub-btn {
+        display: none;
+        visibility: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .header-top {
+        display: none;
+        visibility: none;
+    }
+
+    .navbar {
+        background: red;
+    }
+
+    
+    .navbar .navbar-brand,
+    .navbar-toggler {
+        color: white;
+    }
+
+    .main {
+        padding-top: 2rem;
+    }
+}
