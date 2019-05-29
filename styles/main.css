@@ -4,9 +4,7 @@ body {
     margin-top: 0;
 }
 
-header, footer {
-    /* padding: 3%; */
-}
+
 a {
     color: black;
 }
@@ -20,12 +18,10 @@ a:hover {
     padding: 0 4%;
 }
 
-.fa-bars {
-    /* color: black; */
-}
 
 .navbar {
     font-weight: bold;
+    background: white;
 }
 
 .navbar .navbar-brand,
@@ -260,6 +256,7 @@ footer a:hover {
 }
 
 
+
 @media screen and (max-width: 767px) {
     .mag-title {
         border: none;
@@ -297,7 +294,6 @@ footer a:hover {
         display: none;
         visibility: none;
     }
-
 }
 
 @media screen and (max-width: 991px) {
