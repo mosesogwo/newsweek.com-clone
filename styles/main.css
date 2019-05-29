@@ -1,10 +1,11 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     line-height: 1em;
+    margin-top: 0;
 }
 
 header, footer {
-    padding: 3%;
+    /* padding: 3%; */
 }
 a {
     color: black;
@@ -14,8 +15,41 @@ a:hover {
     color: red;
 }
 
+.header-top {
+    height: 100px;
+    padding: 0 4%;
+}
+
+.fa-bars {
+    /* color: black; */
+}
+
+.navbar {
+    font-weight: bold;
+}
+
+.navbar .navbar-brand,
+.navbar-toggler {
+    color: white;
+}
+
+.nav-item {
+    border-right: 1px solid lightgrey;
+    font-weight: 700;
+}
+
+.sign-in-btn {
+    color: white;
+}
+
+.sub-btn{
+    background: white;
+    color: red;
+}
+
 .main {
     margin: 0 3%;
+    padding-top: 6%;
 }
 
 h1 {
@@ -178,9 +212,19 @@ section {
     padding-top: 1rem;
 }
 
+footer {
+    margin: 0 3%;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline solid black;
+}
+
 .footer-top {
     font-size: 3rem;
     color: red;
+    padding-top: 2rem;
 }
 
 .footer-top span {
@@ -188,12 +232,13 @@ section {
     color: black;
 }
 
-.footer-top div:last-of-type {
+.footer-top div:last-of-type,
+.footer-bottom div:last-of-type {
     text-align: right;
 }
 
 .footer-top i {
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     font-size: 1.2rem;
     color: black;
 }
@@ -201,12 +246,17 @@ section {
 .footer-bottom {
     font-size: 1rem;
     padding-top: 2rem;
-    background-color: lightgrey;
+    margin-top: 1.5rem;
+    border-top: 1px solid gray;
 }
 
 .footer-bottom a {
-    padding-right: 2rem;
+    padding-right: 1rem;
     line-height: 2rem;
+}
+
+.footer-bottom span {
+    font-weight: lighter;
 }
 
 
@@ -216,6 +266,16 @@ section {
         width: 100%;
     }
 
+    .footer-top div:last-of-type,
+    .footer-bottom div:last-of-type {
+        text-align: left;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 575px) {
     .mob2 {
         order: 2;
     }
@@ -228,8 +288,30 @@ section {
         order: 3;
     }
 
-    .footer-top div:last-of-type {
-        text-align: left;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-brand,
+    .sign-in-btn,
+    .sub-btn {
+        display: none;
+        visibility: none;
     }
 
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+        background: red;
+    }
+
+    
+    .navbar .navbar-brand,
+    .navbar-toggler {
+        color: white;
+    }
+
+    .main {
+        padding-top: 10%;
+    }
 }
