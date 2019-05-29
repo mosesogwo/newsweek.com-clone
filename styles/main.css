@@ -14,17 +14,16 @@ a:hover {
 }
 
 .header-top {
-    height: 100px;
-    padding: 0 2%;
     background-color: red;
     color: white;
     font-weight: bold;
+    height: 100px;
+    padding: 0 2%; 
 }
 
 .header-top a {
-    font-size: 5rem;
-    /* font-weight: bold; */
     color: white;
+    font-size: 5rem;
 }
 
 .header-top a:hover {
@@ -33,10 +32,8 @@ a:hover {
 
 
 .navbar {
-    font-weight: bold;
     background: white;
-    /* display: sticky;
-    top: 0; */
+    font-weight: bold;
 }
 
 .navbar .navbar-brand,
@@ -59,7 +56,6 @@ a:hover {
     background: white;
     color: red;
 }
-
 
 .main {
     margin: 0 3%;
@@ -99,8 +95,8 @@ h4 {
 .latest-news .media,
 .news-category .media:nth-of-type(2),
 .bottom-ad .media {
-    margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .more-stories {
@@ -109,13 +105,14 @@ h4 {
 }
 
 .more-stories a:hover {
-    text-decoration: underline solid red;
     color: black;
+    text-decoration: underline solid red;
 }
 
 .featured-story .card {
     margin-bottom: 2rem;
 }
+
 .card {
     border: none;
 }
@@ -124,30 +121,30 @@ h4 {
     padding: 0.2rem 0;
 }
 
+.opinion {
+    margin-bottom: 4rem;
+}
+
 .opinion img{
-    width: 68px;
     height: 68px;
+    width: 68px;
 }
 
 .opinion .media {
     margin-bottom: 1.5rem;
 }
 
-.opinion {
-    margin-bottom: 4rem;
-}
-
 .latest-news img {
-    width: 135px;
     height: 90px;
+    width: 135px;
 }
 
 .mag-title {
     border-bottom: 1px solid lightgrey;
-    width: 75%;
     float: right;
     margin-bottom: 0.5em;
     text-align: center;
+    width: 75%;
 }
 
 .magazine .col-md-3:first-of-type {
@@ -155,14 +152,15 @@ h4 {
 }
 
 .magazine .card-img-top {
-    width: 100%;
     height: 20vh;
     object-fit: cover;
+    width: 100%;
 }
 
 .magazine .col-md-3 span {
     padding: 0.3em;
 }
+
 .magazine .col-md-3 span:first-of-type {
     background-color: red;
     color: white;
@@ -179,7 +177,6 @@ section {
 
 .top-story, .opinion {
     margin-top: 0;
-    /* margin-bottom: 0; */
 }
 
 .gray {
@@ -216,9 +213,8 @@ section {
 }
 
 .most-read img {
-    width: 60%;
-    /* height: 10vw; */
     object-fit: cover;
+    width: 60%;
 }
 
 .most-read .media {
@@ -236,14 +232,15 @@ footer a:hover {
 }
 
 .footer-top {
-    font-size: 3rem;
     color: red;
+    font-size: 3rem;
     padding-top: 2rem;
 }
 
 .footer-top span {
-    font-size: 1rem;
     color: black;
+    font-size: 1rem;
+    
 }
 
 .footer-top div:last-of-type,
@@ -252,21 +249,21 @@ footer a:hover {
 }
 
 .footer-top i {
-    margin: 0 0.5rem;
-    font-size: 1.2rem;
     color: black;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
 }
 
 .footer-bottom {
-    font-size: 1rem;
-    padding-top: 2rem;
-    margin-top: 1.5rem;
     border-top: 1px solid gray;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 2rem;
 }
 
 .footer-bottom a {
-    padding-right: 1rem;
     line-height: 2rem;
+    padding-right: 1rem;
 }
 
 .footer-bottom span {
@@ -284,10 +281,7 @@ footer a:hover {
     .footer-top div:last-of-type,
     .footer-bottom div:last-of-type {
         text-align: left;
-    }
-
-    
-
+    }  
 }
 
 @media screen and (max-width: 575px) {
