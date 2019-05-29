@@ -15,13 +15,28 @@ a:hover {
 
 .header-top {
     height: 100px;
-    padding: 0 4%;
+    padding: 0 2%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.header-top a {
+    font-size: 5rem;
+    /* font-weight: bold; */
+    color: white;
+}
+
+.header-top a:hover {
+    text-decoration: none;
 }
 
 
 .navbar {
     font-weight: bold;
     background: white;
+    /* display: sticky;
+    top: 0; */
 }
 
 .navbar .navbar-brand,
@@ -34,18 +49,21 @@ a:hover {
     font-weight: 700;
 }
 
-.sign-in-btn {
+.sign-in-btn,
+.sign-btn {
     color: white;
 }
 
-.sub-btn{
+.sub-btn,
+.subs-btn{
     background: white;
     color: red;
 }
 
+
 .main {
     margin: 0 3%;
-    padding-top: 6%;
+    padding-top: 1rem;
 }
 
 h1 {
@@ -297,6 +315,12 @@ footer a:hover {
 }
 
 @media screen and (max-width: 991px) {
+
+    .header-top {
+        display: none;
+        visibility: none;
+    }
+
     .navbar {
         background: red;
     }
@@ -308,6 +332,6 @@ footer a:hover {
     }
 
     .main {
-        padding-top: 10%;
+        padding-top: 2rem;
     }
 }
